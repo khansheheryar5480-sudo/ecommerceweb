@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+    border:1px;
+}
+
+.buttons button {
+    background:#fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.buttons .active {
+    background: #333;
+    color: #fff;
+}
+
+.products {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background:rgb(177, 254, 228);
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:rgb(164, 249, 221);
+}
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+header {
+  background-color: aquamarine;
+  color:black;
+  padding: 20px;
+  text-align: center;
+  height:90px;
+  width:100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+form button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("bg.png");
+ 
+  /* Full height */
+  height: 100%;
+  
+  /*Full width */
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
