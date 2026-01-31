@@ -7,12 +7,15 @@ body {
     height:100%;
     margin: 0;
     padding: 0;
+    background-color:#6200EE;
+
 }
 
 .container {
     max-width: 1400px;
     margin: auto;
     padding: 20px;
+    margin-top: 70px;
 }
 
 h1 {
@@ -33,7 +36,7 @@ h1 {
 }
 
 .buttons button {
-    background:#fff;
+    background:#D1FF00;
     padding: 8px 15px;
     margin: 5px;
     border:none;
@@ -41,7 +44,7 @@ h1 {
 }
 
 .buttons .active {
-    background: #333;
+    background:#D1FF00;
     color: #fff;
 }
 
@@ -52,9 +55,9 @@ h1 {
 }
 
 .card {
-    background:rgb(177, 254, 228);
+    border:#D1FF00 5px solid;
     padding: 15px;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,13 +66,15 @@ h1 {
 }
 
 .price {
-    color: green;
-    font-weight: bold;
+    color: black;
+    font-weight: bolder;
 }
 footer {
   text-align: center;
   padding: 20px;
-  background-color:rgb(164, 249, 221);
+  background-color:black;
+  color:#D1FF00;
+  font-size:20px;
 }
 section {
   padding: 40px 20px;
@@ -82,12 +87,13 @@ nav a {
   text-decoration: none;
 }
 header {
-  background-color: aquamarine;
+  background-color:black;
   color:black;
   padding: 20px;
   text-align: center;
   height:90px;
   width:100%;
+  margin-bottom: 10px;
 }
 form {
   display: flex;
@@ -107,19 +113,4 @@ form button {
   border: none;
   padding: 10px;
   cursor: pointer;
-}
-.bg-img {
-  /* The image used */
-  background-image: url("bg.png");
- 
-  /* Full height */
-  height: 100%;
-  
-  /*Full width */
-  width:100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
